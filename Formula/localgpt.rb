@@ -8,7 +8,7 @@ class Localgpt < Formula
     depends_on "docker"
   
     def install
-      bin.install "localgpt"
+      bin.install "bin/localgpt"
     end
   
     service do
